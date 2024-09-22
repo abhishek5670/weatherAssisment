@@ -1,3 +1,18 @@
+1 install packges using npm i
+2 install tailwind Css copy paste both command at same time
+npm install -D tailwindcss
+npx tailwindcss init
+3 in tailwind.config.js file if content: [
+  ] is empty then copy paste content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ], and
+
+4. if index.css file have not this
+@tailwind base;
+@tailwind components;
+@tailwind utilities; on top then copy paste then
+
+now run the npm start to run project
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
