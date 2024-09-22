@@ -60,14 +60,14 @@ const FutureWeather = ({ forecastData, onselectDate }) => {
         onDaySelect={handleDaySelect}
         previousShow={false}
       />
-      <div>
+     {!previousData.length=== 0 && <div>
         <p className="text-2xl ">Recently Viwed</p>
         <WeatherForecastButtons
           forecastData={previousData}
           onDaySelect={handleDaySelect}
           previousShow={true}
         />
-      </div>
+      </div>}
     </div>
   );
 };
